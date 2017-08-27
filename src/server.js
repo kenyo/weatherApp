@@ -10,6 +10,8 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
+app.use('client', )
+
 // API routes
 app.get('/api/weather', (req, res, next) => {
   const aerisApiUrl = `${HOST}?\
