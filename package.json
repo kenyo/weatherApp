@@ -1,0 +1,25 @@
+{
+  "name": "weatherapp",
+  "version": "0.0.0",
+  "description": "Sample weather app for NYC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenyo/weatherApp.git"
+  },
+  "keywords": [
+    "c4q"
+  ],
+  "author": "Kenny Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenyo/weatherApp/issues"
+  },
+  "homepage": "https://github.com/kenyo/weatherApp#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
