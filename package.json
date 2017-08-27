@@ -4,6 +4,7 @@
   "description": "Sample weather app for NYC",
   "main": "app.js",
   "scripts": {
+    "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/kenyo/weatherApp#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "node-fetch": "^1.7.2"
   }
 }
